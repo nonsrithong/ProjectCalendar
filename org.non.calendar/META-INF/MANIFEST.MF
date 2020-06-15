@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Calendar
+Bundle-SymbolicName: org.non.calendar
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.non.calendar
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
+ org.adempiere.plugin.utils;bundle-version="7.1.0"
+Import-Package: org.compiere.process,
+ org.osgi.service.event;version="1.4.0"
+Service-Component: DocEvent.xml,
+ ModelFacotry.xml
